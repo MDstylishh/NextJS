@@ -58,8 +58,8 @@ importers:
         specifier: ^5.0.2
         version: 5.0.2
       '@types/node':
-        specifier: 22.10.7
-        version: 22.10.7
+        specifier: 22.  s  ss s a a s a ưs 10.7
+        version: 10.7.2
       '@types/react':
         specifier: 19.0.7
         version: 19.0.7
@@ -324,8 +324,8 @@ packages:
   '@types/cookie@0.6.0':
     resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
 
-  '@types/node@22.10.7':
-    resolution: {integrity: sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==}
+  '@types/node@10.7.2':
+    resolution: {integrity: sha512-W+AIFZjqaBFfp2aAOGQ/YjkDUiztJr0cvvexFTlmJVzRV91rocTh+tDPuutKLVqKkTgCm5pwvDaZgjH1BfmmaQ==}
 
   '@types/react-dom@19.0.3':
     resolution: {integrity: sha512-0Knk+HJiMP/qOZgMyNFamlIjw9OFCsyC2ZbigmEEyXXixgre6IQpm/4V+r3qH4GC1JPvRJKInw+on2rV6YZLeA==}
@@ -1033,9 +1033,6 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@6.20.0:
-    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
-
   update-browserslist-db@1.1.3:
     resolution: {integrity: sha512-UxhIZQ+QInVdunkDAaiazvvT/+fXL5Osr0JZlJulepYu6Jd7qJtDZjlur0emRlT71EN3ScPoE7gvsuIKKNavKw==}
     hasBin: true
@@ -1288,13 +1285,11 @@ snapshots:
 
   '@types/bcrypt@5.0.2':
     dependencies:
-      '@types/node': 22.10.7
+      '@types/node': 10.7.2
 
   '@types/cookie@0.6.0': {}
 
-  '@types/node@22.10.7':
-    dependencies:
-      undici-types: 6.20.0
+  '@types/node@10.7.2': {}
 
   '@types/react-dom@19.0.3(@types/react@19.0.7)':
     dependencies:
@@ -1975,8 +1970,6 @@ snapshots:
   tslib@2.8.1: {}
 
   typescript@5.7.3: {}
-
-  undici-types@6.20.0: {}
 
   update-browserslist-db@1.1.3(browserslist@4.24.5):
     dependencies:
