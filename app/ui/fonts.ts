@@ -1,9 +1,9 @@
-import { Inter } from 'next/font/google';
-import { Lusitana } from 'next/font/google';
+import { Inter, Lusitana } from 'next/font/google';  // Merge import cho gọn
 
-const lusitana = Lusitana({
-    weight: '400',
+export const inter = Inter({ subsets: ['latin'] });
+
+export const lusitana = Lusitana({
+    weight: '400',  // Giữ nguyên nếu bạn muốn
     subsets: ['latin'],
-})
-const inter = Inter({ subsets: ['latin'] });
-export { lusitana, inter };
+    variable: '--font-lusitana',  // **Quan trọng: Thêm dòng này** để dùng CSS variable (như tutorial)
+});
